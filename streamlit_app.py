@@ -5,6 +5,10 @@ title = st.text_input('Event Title','Enter your event title here')
 option = st.selectbox(
     'Would you like to be reminded the event again after 5 mins?',
     ('Yes, please', 'No, Thank you'))
+if option == 'Yes, please':
+    st.write("The event will be alarmed twice")
+else:
+    st.write("The event will be alarmed only once")
 #date input
 import datetime
 
