@@ -2,9 +2,6 @@ import streamlit as st
 
 title = st.text_input('Event Title','Enter your event title here')
 
-'''alarm = st.selectbox(
-    'Would you like to be reminded again after 5 minutes?'
-    ['Yes','No'])'''
 if alarm == 'Yes':
     st.write('This event will be alarmed twice')
 else:
