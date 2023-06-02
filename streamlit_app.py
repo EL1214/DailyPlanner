@@ -2,11 +2,6 @@ import streamlit as st
 
 title = st.text_input('Event Title','Enter your event title here')
 
-if alarm == 'Yes':
-    st.write('This event will be alarmed twice')
-else:
-    st.write('This event will be alarmed only once')
-
 #date input
 import datetime
 
