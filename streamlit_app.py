@@ -2,6 +2,9 @@ import streamlit as st
 
 title = st.text_input('Event Title','Enter your event title here')
 
+option = st.selectbox(
+    'Would you like to be reminded the event again after 5 mins?',
+    ('Yes, please', 'No, Thank you'))
 #date input
 import datetime
 
